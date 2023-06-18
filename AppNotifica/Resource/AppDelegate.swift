@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  AppNotifica
 //
-//  Created by Dario Pintor on 13/10/22.
+//  Created by Karyne on 18/06/23
 //
 
 import UIKit
