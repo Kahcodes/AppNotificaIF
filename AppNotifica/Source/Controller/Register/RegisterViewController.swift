@@ -1,16 +1,16 @@
 //
-//  LoginViewController.swift
+//  RegisterViewController.swift
 //  AppNotifica
 //
-//  Created by Karyne on 18/06/23
+//  Created by IFBIOTIC11 on 18/06/23.
 //
 
 import Foundation
 import UIKit
 
-class LoginViewController: UIViewController {
+class RegisterViewController: UIViewController {
     //cria uma variável que é do tipo LoginView
-    var viewMain = LoginView()
+    var viewMain = RegisterView()
     
        override func loadView(){
            self.view = viewMain
@@ -19,9 +19,10 @@ class LoginViewController: UIViewController {
     // é executado quando está carregando
        override func viewDidLoad() {
            super.viewDidLoad()
-            self.title = "Logar"
+        self.title = "Registrar"
+           
            self.navigationController?.navigationBar.prefersLargeTitles=true
-    
+
        }
 
 }

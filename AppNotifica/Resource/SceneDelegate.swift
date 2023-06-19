@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  AppNotifica
 //
-//  Created by Karyne on 18/06/23
+//  Created by IFBIOTIC11 on 18/06/23.
 
 import UIKit
 
@@ -25,7 +25,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 self.window?.rootViewController = navigationController
                 
                 //passo o navigationController daqui para o coordinator LoginCoordinatior
-                let coordinator = LoginCoordinator(navigationController: navigationController)
+                let coordinator = RegisterCoordinator(navigationController: navigationController)
         
                 coordinator.start()
             }
