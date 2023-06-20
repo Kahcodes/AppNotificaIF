@@ -8,6 +8,9 @@
 import Foundation
 import UIKit
 
+import Foundation
+import UIKit
+
 class LabelDefault : UILabel{
     
     init(text: String, font: UIFont){
