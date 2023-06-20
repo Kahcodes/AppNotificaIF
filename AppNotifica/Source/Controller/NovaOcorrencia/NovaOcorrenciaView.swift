@@ -16,10 +16,77 @@ class NovaOcorrenciaView: ViewDefault {
     
     //MARK: - Inits
     
+    lazy var imagem: UIImageView = {
+        let view = UIImageView ()
+        view.image = UIImage(named: "imagemCamera")
+        
+        
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    } ()
     
+    lazy var titleTextField = TextFieldDefault(placeholder: "Título", keyBordType: .default, returnKeyType: .next)
     
-   override  func setupVisualElements() {
+    lazy var descriptionTextField = TextFieldDefault(placeholder: "Descricao", keyBordType: .default, returnKeyType: .next)
 
+    lazy var localizationTextField = TextFieldDefault(placeholder: "Localizacao", keyBordType: .default, returnKeyType: .next)
+
+    lazy var statusTextField = TextFieldDefault(placeholder: "Status", keyBordType: .default, returnKeyType: .next)
+    
+    lazy var saveButton = ButtonDefault(botao: "SALVAR")
+
+    
+    override  func setupVisualElements() {
+        self.addSubview(imagem)
+        self.addSubview(titleTextField)
+        self.addSubview(descriptionTextField)
+        self.addSubview(localizationTextField)
+        self.addSubview(statusTextField)
+        self.addSubview(saveButton)
+        
+        
+        NSLayoutConstraint.activate([
+            imagem.heightAnchor.constraint(equalToConstant: 200),
+            imagem.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor,constant: 20),
+            imagem.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant:15),
+            imagem.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -15),
+            
+            titleTextField.widthAnchor.constraint(equalToConstant: 374),
+            titleTextField.heightAnchor.constraint(equalToConstant: 60),
+            titleTextField.topAnchor.constraint(equalTo: imagem.bottomAnchor, constant: 5),
+            titleTextField.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 15),
+            titleTextField.leadingAnchor.constraint(equalTo: self.trailingAnchor, constant: -15),
+            
+            
+            descriptionTextField.widthAnchor.constraint(equalToConstant: 374),
+            descriptionTextField.heightAnchor.constraint(equalToConstant: 60),
+            descriptionTextField.topAnchor.constraint(equalTo: titleTextField.bottomAnchor, constant: 5),
+            descriptionTextField.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 15),
+            descriptionTextField.leadingAnchor.constraint(equalTo: self.trailingAnchor, constant: -15),
+            
+            localizationTextField.widthAnchor.constraint(equalToConstant: 374),
+            localizationTextField.heightAnchor.constraint(equalToConstant: 60),
+            localizationTextField.topAnchor.constraint(equalTo: descriptionTextField.bottomAnchor, constant: 5),
+            localizationTextField.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 15),
+            localizationTextField.leadingAnchor.constraint(equalTo: self.trailingAnchor, constant: -15),
+            
+            statusTextField.widthAnchor.constraint(equalToConstant: 374),
+            statusTextField.heightAnchor.constraint(equalToConstant: 60),
+            statusTextField.topAnchor.constraint(equalTo: localizationTextField.bottomAnchor, constant: 5),
+            statusTextField.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 15),
+            statusTextField.leadingAnchor.constraint(equalTo: self.trailingAnchor, constant: -15),
+            
+
+
+            saveButton.widthAnchor.constraint(equalToConstant: 374),
+            saveButton.heightAnchor.constraint(equalToConstant: 60),
+            saveButton.topAnchor.constraint(equalTo: statusTextField.bottomAnchor, constant: 5),
+            saveButton.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 15),
+            saveButton.leadingAnchor.constraint(equalTo: self.trailingAnchor, constant: -15),
+
+
+        ])
     }
+    
     
 }
