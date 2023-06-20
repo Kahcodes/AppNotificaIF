@@ -13,8 +13,11 @@ class SobreViewController: ViewControllerDefault {
     //MARK: -  Clouseres
     
     //cria uma variável que é do
+    
     lazy var sobreView: SobreView = {
         let sobreView = SobreView()
+        
+        
         return sobreView
     }()
     

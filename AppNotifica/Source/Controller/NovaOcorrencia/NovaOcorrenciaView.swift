@@ -1,14 +1,15 @@
 //
-//  SobreView.swift
+//  NovaOcorrenciaView.swift
 //  AppNotifica
 //
-//  Created by IFBIOTIC11 on 19/06/23.
+//  Created by IFBIOTIC11 on 20/06/23.
 //
 
 import Foundation
+
 import UIKit
 
-class SobreView: ViewDefault {
+class NovaOcorrenciaView: ViewDefault {
     //MARK: - Closures
     
     //MARK: - Proports

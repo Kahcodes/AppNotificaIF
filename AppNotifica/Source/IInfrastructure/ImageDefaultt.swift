@@ -27,4 +27,3 @@ class ImageDefault: UIImageView {
     
    
 }
-
