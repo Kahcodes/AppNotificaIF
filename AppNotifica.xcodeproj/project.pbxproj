@@ -28,6 +28,7 @@
 		04E979D62A41D49700FFF84B /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E979D52A41D49700FFF84B /* TabbarController.swift */; };
 		04E979D82A41D53D00FFF84B /* NovaOcorrenciaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E979D72A41D53D00FFF84B /* NovaOcorrenciaView.swift */; };
 		04E979DA2A41D55900FFF84B /* NovaOcorrenciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E979D92A41D55900FFF84B /* NovaOcorrenciaViewController.swift */; };
+		04E979DD2A41E89200FFF84B /* EscolherImagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E979DC2A41E89200FFF84B /* EscolherImagem.swift */; };
 		41239E8B28F840EA00D92C31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41239E8A28F840EA00D92C31 /* AppDelegate.swift */; };
 		41239E8D28F840EA00D92C31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41239E8C28F840EA00D92C31 /* SceneDelegate.swift */; };
 		41239E8F28F840EA00D92C31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41239E8E28F840EA00D92C31 /* ViewController.swift */; };
@@ -83,6 +84,7 @@
 		04E979D52A41D49700FFF84B /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 		04E979D72A41D53D00FFF84B /* NovaOcorrenciaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaOcorrenciaView.swift; sourceTree = "<group>"; };
 		04E979D92A41D55900FFF84B /* NovaOcorrenciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaOcorrenciaViewController.swift; sourceTree = "<group>"; };
+		04E979DC2A41E89200FFF84B /* EscolherImagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscolherImagem.swift; sourceTree = "<group>"; };
 		41239E8728F840EA00D92C31 /* AppNotifica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppNotifica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41239E8A28F840EA00D92C31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41239E8C28F840EA00D92C31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 			children = (
 				04E979D72A41D53D00FFF84B /* NovaOcorrenciaView.swift */,
 				04E979D92A41D55900FFF84B /* NovaOcorrenciaViewController.swift */,
+				04E979DC2A41E89200FFF84B /* EscolherImagem.swift */,
 			);
 			path = NovaOcorrencia;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				04E979C62A4088C400FFF84B /* ViewControllerDefault.swift in Sources */,
 				04E979AF2A3FC1D300FFF84B /* LabelDefault.swift in Sources */,
 				04E979B42A3FE29200FFF84B /* RegisterView.swift in Sources */,
+				04E979DD2A41E89200FFF84B /* EscolherImagem.swift in Sources */,
 				04E979B12A3FC25500FFF84B /* TextFieldDefault.swift in Sources */,
 				04E979D82A41D53D00FFF84B /* NovaOcorrenciaView.swift in Sources */,
 				04E979D62A41D49700FFF84B /* TabbarController.swift in Sources */,
